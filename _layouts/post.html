@@ -41,20 +41,15 @@
             <div class="card-body">
 			{{ content }}
             <hr />
-			  
+			{% include disqus.html %}
+		<hr />		    
             </div>
           </article><!-- /.card -->
-
         </div>
-		{% include disqus.html %}
-		{% include sidebar.html %}
-		
+		{% include sidebar.html %}	
       </div>
     </div>
-
   </main>
-
-
 {% include footer.html %}
 </body>
 </html>
