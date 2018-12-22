@@ -5,6 +5,7 @@ categories:
 - C++ LANGUAGE PROGRAMS
 - BASIC OOPS PROGRAMS
 layout: post
+image: 02.jpg
 ---
 
 #### PROGRAM CODE
