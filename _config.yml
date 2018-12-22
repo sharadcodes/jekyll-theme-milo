@@ -4,6 +4,7 @@ about: "Bootstrap theme for jekyll"
 markdown: kramdown
 url: "https://www.sharad.cf"
 baseurl: "/jekyll-theme-milo"
+disqus_short_name: disqus-demo-page
 
 plugins: 
   - jekyll-paginate
