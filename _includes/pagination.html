@@ -23,23 +23,26 @@
 }
 </style>
 -->
-
 <nav aria-label="...">
   <ul class="pagination">
+
 {% if paginator.previous_page %}
-    <li class="page-item disabled">
+
+<li class="page-item">
       <a class="page-link" href="onclick="window.location.href='{{site.url}}/{{site.baseurl}}/{{ paginator.previous_page_path }}'">Previous</a>
-    </li>
+</li>
 {% else %}
 <li class="page-item disabled">
       <a class="page-link" href="#" tabindex="-1">Previous</a>
-</li>																  
+</li>
 {% endif %}
-    <li class="page-item"><a class="page-link" href="">1</a></li>
+
+<li class="page-item active"><a class="page-link">Page: {{ paginator.page }} of {{ paginator.total_pages }}</a></li>
+
 {% if paginator.next_page %}
-    <li class="page-item">
+<li class="page-item">
       <a class="page-link" href="onclick="window.location.href='{{site.url}}/{{site.baseurl}}/{{ paginator.next_page_path }}'">Next</a>
-    </li>
+</li>
 {% else %}
 <li class="page-item disabled">
       <a class="page-link" href="#" tabindex="-1">Next</a>
