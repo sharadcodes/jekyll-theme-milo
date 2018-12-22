@@ -1,28 +1,4 @@
-<!--
 <div class="container>
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a " class="previous">
-	<button type="button" class="mama center-block btn btn-primary btn-sm" onclick="window.location.href='{{site.url}}/{{site.baseurl}}/{{ paginator.previous_page_path }}'")>Previous</button>
-    </a>
-  {% else %}
-  <button type="button" class="mama center-block btn btn-secondary btn-sm" disabled>Previous</button>
-  {% endif %}
-  <button type="button" class="mama center-block btn btn-secondary btn-sm" disabled>Page: {{ paginator.page }} of {{ paginator.total_pages }}</button>
-  {% if paginator.next_page %}
-  <button type="button" class="mama center-block btn btn-primary btn-sm" onclick="window.location.href='{{site.url}}/{{site.baseurl}}/{{ paginator.next_page_path }}'")>Next</button>
-  {% else %}
-   <button type="button" class="mama center-block btn btn-secondary btn-sm" disabled>Next</button>
-  {% endif %}
-</div>		
-</div>
-
-<style>
-.mama{
-    margin: 2px!important;
-}
-</style>
--->
 <nav aria-label="...">
   <ul class="pagination justify-content-center">
 
@@ -50,3 +26,4 @@
 {% endif %}	  
   </ul>
 </nav>
+</div>
