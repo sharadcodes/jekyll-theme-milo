@@ -1,2 +1,5 @@
 # Milo
-A Bootstrap theme for jekyll.
+
+## A Bootstrap theme for jekyll.
+
+### Installation
