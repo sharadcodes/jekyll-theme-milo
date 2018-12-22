@@ -33,6 +33,6 @@ A Bootstrap theme for jekyll.
 ## ABOUT PAGE
 ![About](https://github.com/sharadcodes/jekyll-theme-mino/raw/master/screenshots/5.png)
 ## DISQUS
-![404 page](https://github.com/sharadcodes/jekyll-theme-mino/raw/master/screenshots/6.png)
+![DISQUQ page](https://github.com/sharadcodes/jekyll-theme-mino/raw/master/screenshots/6.png)
 ## 404 Custom page
 ![404 page](https://github.com/sharadcodes/jekyll-theme-mino/raw/master/screenshots/6.png)
