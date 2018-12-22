@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+{% include header.html %}
+
+  <main class="main pt-4" role="main">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-9">
+
+          <article class="card mb-4">
+		  
+            <header class="card-header text-center">
+			{% if page.date %}
+              <div class="card-meta">
+                <a href="#"><time>On {{ page.date | date_to_string }}</time></a> in <a href="page-category.html">{{ page.categories }}</a>
+              </div>
+			{% endif %} 
+
+                <h1 class="card-title">{{ page.title }}</h1>
+
+            </header>
+			{% if page.image %}
+            <a href="{{ page.image }}">
+              <img class="card-img" src="{{ site.url }}/{{ site.baseurl }}/img/{{ page.image }}" alt="" />
+            </a>
+            {% endif %}
+            <div class="card-body">
+			{{ content }}
+            <hr />
+			  
+            </div>
+          </article><!-- /.card -->
+
+        </div>
+     {% include sidebar.html %}
+      </div>
+    </div>
+
+  </main>
+  
+{% include footer.html %}
+
+</body>
+</html>

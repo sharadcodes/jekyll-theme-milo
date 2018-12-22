@@ -1,0 +1,31 @@
+    <div class="container center-it">
+      <div class="text-center">
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a " class="previous">
+	<button type="button" class="mama center-block btn btn-primary btn-lg" onclick="window.location.href='{{site.url}}/{{site.baseurl}}/{{ paginator.previous_page_path }}'")>Previous</button>
+    </a>
+  {% else %}
+  <button type="button" class="mama center-block btn btn-secondary btn-lg" disabled>Previous</button>
+  {% endif %}
+  <button type="button" class="mama center-block btn btn-secondary btn-lg" disabled>Page: {{ paginator.page }} of {{ paginator.total_pages }}</button>
+  {% if paginator.next_page %}
+  <button type="button" class="mama center-block btn btn-primary btn-lg" onclick="window.location.href='{{site.url}}/{{site.baseurl}}/{{ paginator.next_page_path }}'")>Next</button>
+  {% else %}
+   <button type="button" class="mama center-block btn btn-secondary btn-lg" disabled>Next</button>
+  {% endif %}
+</div>		
+</div>
+</div>
+
+<style>
+.mama{
+    margin: 2px!important;
+}
+
+.center-it{
+    float: right;
+}
+</style>
+

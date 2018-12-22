@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+{% include header.html %}
+
+  <main class="main pt-4" role="main">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-9">
+
+          <article class="card mb-4">
+		  
+            <header class="card-header text-center">
+			{% if page.date %}
+              <div class="card-meta">
+                <span>Published on {{ page.date | date_to_string}}</time></span>{% endif %} in
+                  {% if post %}
+                    {% assign categories = post.categories %}
+                  {% else %}
+                    {% assign categories = page.categories %}
+                  {% endif %}
+                  {% for category in categories %}
+                  <a href="{{site.url}}/{{ site.baseurl }}/categories/#{{category|slugize}}">{{category}}</a>
+                  {% unless forloop.last %}&nbsp;{% endunless %}
+                  {% endfor %}
+              <div>
+			
+                <h1 class="card-title">{{ page.title }}</h1>
+
+            </header>
+			
+			{% if page.image %}
+            <a style="cursor:pointer;">
+              <img class="card-img" src="{{ site.url }}/{{ site.baseurl }}/img/{{ page.image }}" alt="" />
+            </a>
+            {% endif %}
+            
+            <div class="card-body">
+			{{ content }}
+            <hr />
+			  
+            </div>
+          </article><!-- /.card -->
+
+        </div>
+		
+		{% include sidebar.html %}
+		
+      </div>
+    </div>
+
+  </main>
+
+
+{% include footer.html %}
+</body>
+</html>
