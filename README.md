@@ -4,9 +4,9 @@ A Bootstrap theme for jekyll.
 ## Install and Test
 
 1. Download or clone the repo
-   `git clone https://github.com/sharadcodes/jekyll-theme-mino.git`
+   `git clone https://github.com/sharadcodes/jekyll-theme-milo.git`
 2. Enter the folder
-   `cd jekyll-theme-mino`
+   `cd jekyll-theme-milo`
 3. Run
    `bundle install`
 4. Start Jekyll server
@@ -18,21 +18,21 @@ A Bootstrap theme for jekyll.
 
 ## Demo
 
-- https://www.sharad.cf/jekyll-theme-mino/
+- https://www.sharad.cf/jekyll-theme-milo/
 
 # Screenshots
 
 ## BLOG PAGE
-![Blog page](https://github.com/sharadcodes/jekyll-theme-mino/raw/master/screenshots/1.png)
+![Blog page](https://github.com/sharadcodes/jekyll-theme-milo/raw/master/screenshots/1.png)
 ## BLOG PAGE IN MOBILE
-![Blog page](https://github.com/sharadcodes/jekyll-theme-mino/raw/master/screenshots/2.png)
+![Blog page](https://github.com/sharadcodes/jekyll-theme-milo/raw/master/screenshots/2.png)
 ## POST EXAMPLE IN MOBILE
-![Sampe post](https://github.com/sharadcodes/jekyll-theme-mino/raw/master/screenshots/3.png)
+![Sampe post](https://github.com/sharadcodes/jekyll-theme-milo/raw/master/screenshots/3.png)
 ## POST EXAMPLE
-![Sampe post](https://github.com/sharadcodes/jekyll-theme-mino/raw/master/screenshots/4.png)
+![Sampe post](https://github.com/sharadcodes/jekyll-theme-milo/raw/master/screenshots/4.png)
 ## ABOUT PAGE
-![About](https://github.com/sharadcodes/jekyll-theme-mino/raw/master/screenshots/5.png)
+![About](https://github.com/sharadcodes/jekyll-theme-milo/raw/master/screenshots/5.png)
 ## DISQUS
-![DISQUQ page](https://github.com/sharadcodes/jekyll-theme-mino/raw/master/screenshots/6.png)
+![DISQUQ page](https://github.com/sharadcodes/jekyll-theme-milo/raw/master/screenshots/6.png)
 ## 404 Custom page
-![404 page](https://github.com/sharadcodes/jekyll-theme-mino/raw/master/screenshots/6.png)
+![404 page](https://github.com/sharadcodes/jekyll-theme-milo/raw/master/screenshots/6.png)
