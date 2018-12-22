@@ -5,6 +5,7 @@ layout: post
 categories:
 - SCI-TECH
 - WINDOWS
+image: 6.jpg
 ---
 
 The console character encoding can be changed to UTF-8, which is identified by code page 65001 (Windows Only). UTF-8 allows encoding all Unicode characters, i.e. special characters of all languages are supported.

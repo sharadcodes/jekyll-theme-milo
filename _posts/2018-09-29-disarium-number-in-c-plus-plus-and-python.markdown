@@ -5,6 +5,7 @@ layout: post
 categories:
 - PYTHON
 - C++ LANGUAGE PROGRAMS
+image: 3.jpg
 ---
 
 * PROGRAM FOR DISARIUM NUMBER IN PYTHON

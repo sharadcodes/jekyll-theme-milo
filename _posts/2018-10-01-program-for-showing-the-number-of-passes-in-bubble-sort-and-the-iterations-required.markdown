@@ -1,7 +1,10 @@
 ---
 title: Program for showing the number of passes in bubble sort and the iterations
   required.
+categories:
+- C++ LANGUAGE PROGRAMS
 date: 2018-10-01 13:41:00 Z
+image: 8.jpg
 ---
 
 This program is for showing the passes in bubble sort and the iterations required along with the numbers which are swapped

@@ -5,6 +5,7 @@ layout: post
 categories:
 - LINUX
 - SCI-TECH
+image: 2.jpg
 ---
 
 ![](https://cwithsharad.github.io/assets/img/ubuntu.jpg)

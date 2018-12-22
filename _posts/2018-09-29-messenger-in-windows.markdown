@@ -5,6 +5,7 @@ layout: post
 categories:
 - WINDOWS
 - SCI-TECH
+image: 4.jpg
 ---
 
 <p class="intro">

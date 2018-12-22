@@ -5,6 +5,7 @@ categories:
 - BASIC PROGRAMS OF C++
 - C++ LANGUAGE PROGRAMS
 layout: post
+image: 1.jpg
 ---
 
 #### PROGRAM CODE

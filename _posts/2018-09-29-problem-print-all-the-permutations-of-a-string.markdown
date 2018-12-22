@@ -2,6 +2,9 @@
 title: 'Problem:  Print all the permutations of a string'
 date: 2018-09-29 19:13:00 Z
 layout: post
+categories:
+- C++ LANGUAGE PROGRAMS
+image: 5.jpg
 ---
 
 * Details: Permutation is "arrangement number" or "order". So problem is given a string, how many strings can we produce by rearranging them.
