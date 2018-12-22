@@ -1,2 +1,3 @@
-# special-umbrella
-A Bootstrap theme for jekyll.
+# Milo
+
+##A Bootstrap theme for jekyll.
