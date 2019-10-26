@@ -26,7 +26,7 @@
                 
 				<h4 class="card-title">Latest posts</h4>
 				{% for post in site.posts limit:2 %}
-                <a href="{{ post.url }}" class="d-inline-block">
+                <a href="{{ site.url }}/{{ post.url }}" class="d-inline-block">
                   <h4 class="h6">{{ post.title }}</h4>
                   {% if post.image %}
 				  <img class="card-img" src="{{ site.url }}/img/{{ post.image }}" alt="" />
