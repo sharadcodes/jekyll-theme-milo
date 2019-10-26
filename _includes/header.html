@@ -11,24 +11,11 @@
 		  <ul class="navbar-nav mr-auto">
 		  
 			{% for link in site.main_toc %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ site.baseurl }}/{{ link.url }}">{{ link.title }}</a>
-            </li>
-			{% endfor %}
-			<!--
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown02">
-				{% for category in site.categories %}
-			  		{% capture category_name %}{{ category | first }}{% endcapture %}
-                <a class="dropdown-item" href="{{ category_name | slugize }}">{{ category_name}}</a>
-				{% endfor %}
-			</div>
-            </li>
-			-->
-		
-			
-          </ul>
+			    <li class="nav-item">
+			      <a class="nav-link" href="{{ site.baseurl }}/{{ link.url }}">{{ link.title }}</a>
+			    </li>
+			{% endfor %}			
+          	</ul>
 		  
         </div>
 
