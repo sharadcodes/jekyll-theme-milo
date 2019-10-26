@@ -16,7 +16,7 @@
                 <h4 class="card-title">Categories</h4>
 				{% for category in site.categories %}
 				    {% capture category_name %}{{ category | first }}{% endcapture %}
-                <a class="btn btn-light btn-sm mb-1" href="{{ site.url }}/categories/#{{category_name | slugize}}">
+                <a class="btn btn-light btn-sm mb-1" href="{{ site.baseurl }}/categories/#{{category_name | slugize}}">
                 {{ category | first }}{% unless forloop.last %},{% endunless %}</a>
 				{% endfor %}
               </div>
@@ -29,7 +29,7 @@
                 <a href="{{ post.url }}" class="d-inline-block">
                   <h4 class="h6">{{ post.title }}</h4>
                   {% if post.image %}
-				  <img class="card-img" src="{{ site.url }}/img/{{ post.image }}" alt="" />
+				  <img class="card-img" src="{{ site.baseurl }}/img/{{ post.image }}" alt="" />
 				  {% endif %}
                 </a>
 				<br />
