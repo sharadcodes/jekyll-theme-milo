@@ -16,9 +16,6 @@ A Bootstrap theme for jekyll.
 6. Change the `_config.yml` file according to you.
 7. Upload the files on your repository and :sunglasses: enjoy.
 
-## Demo
-
-- https://www.sharad.cf/jekyll-theme-milo/
 
 # Screenshots
 
