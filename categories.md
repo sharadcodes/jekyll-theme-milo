@@ -11,7 +11,7 @@ title: Categories
     <h4 class="category-head" id="{{ category_name | slugize }}">{{ category_name }}</h4>
      {% for post in site.categories[category_name] %}
        <article class="archive-item">
-      <h6> :black_small_square:<a style="background-color:#F0F0F0; margin-bottom:2px;" href="{{ site.url }}/{{ post.url }}">{{post.title}}</a></h6>
+      <h6> :black_small_square:<a style="background-color:#F0F0F0; margin-bottom:2px;" href="{{ post.url }}">{{post.title}}</a></h6>
     </article>
     {% endfor %}
   </div>
