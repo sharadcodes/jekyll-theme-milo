@@ -4,7 +4,7 @@
 {% if paginator.previous_page %}
 
 <li class="page-item">
-      <a class="page-link" href="{{site.url}}/{{site.baseurl}}/{{ paginator.previous_page_path }}">Previous</a>
+      <a class="page-link" href="{{site.baseurl}}{{ paginator.previous_page_path }}">Previous</a>
 </li>
 {% else %}
 <li class="page-item disabled">
@@ -16,7 +16,7 @@
 
 {% if paginator.next_page %}
 <li class="page-item">
-      <a class="page-link" href="{{site.url}}/{{site.baseurl}}/{{ paginator.next_page_path }}">Next</a>
+      <a class="page-link" href="{{site.baseurl}}{{ paginator.next_page_path }}">Next</a>
 </li>
 {% else %}
 <li class="page-item disabled">
